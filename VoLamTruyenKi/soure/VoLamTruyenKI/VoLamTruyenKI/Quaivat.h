@@ -11,7 +11,7 @@ protected:
 	string He;
 	int SatThuong;
 public:
-	friend int NhanVat::getSatThuong(QuaiVat);
+	friend int getSatThuong(NhanVat);
 	virtual int getSatThuong();
 	virtual void coutThongTin();
 };

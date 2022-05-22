@@ -11,7 +11,7 @@ class NhanVat
 	int SatThuong;
 	string He;
 public:
-	friend int QuaiVat::getSatThuong(NhanVat);
+	friend int getSatThuong(QuaiVat);
 	int getSatThuong();
 	void coutThongTin();
 };
