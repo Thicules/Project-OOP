@@ -1,7 +1,5 @@
 #pragma once
-
-#include<iostream>
-#include<string>
-
-using namespace std;
-
+#include "Graphics.h"
+#include "Sound.h"
+#include "NhanVat.h"
+#include "QuaiVat.h"

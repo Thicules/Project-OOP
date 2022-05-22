@@ -1,18 +1,18 @@
 #pragma once
+#include "Total.h"
+#include <iostream>
+#include <string>
+using namespace std;
 
-#include"Header.h"
-#include"Quaivat.h"
-
-class NhanVat
-{
+class NhanVat {
+protected:
 	string TenNhanVat;
 	string MonPhai;
 	int CapDo;
 	int SatThuong;
 	string He;
 public:
-	friend int getSatThuong(QuaiVat);
+	int getSatThuong(QuaiVat a);
 	int getSatThuong();
 	void coutThongTin();
 };
-

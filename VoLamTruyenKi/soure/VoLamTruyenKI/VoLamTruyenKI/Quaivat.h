@@ -1,7 +1,8 @@
 #pragma once
-
-#include "Header.h"
-#include "Nhanvat.h"
+#include <iostream>
+#include <string>
+#include "Total.h"
+using namespace std;
 
 class QuaiVat
 {

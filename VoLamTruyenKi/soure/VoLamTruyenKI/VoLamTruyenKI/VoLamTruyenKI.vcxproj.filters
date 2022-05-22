@@ -15,19 +15,40 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="VoLamTruyenKI.cpp">
+    <ClCompile Include="VoLamTruyenKi.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RunWord.cpp">
+      <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Quaivat.h">
+    <ClInclude Include="Total.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Nhanvat.h">
+    <ClInclude Include="NhanVat.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuaiVat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Resource Files</Filter>
     </ClInclude>
     <ClInclude Include="Header.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RunWord.h">
+      <Filter>Resource Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
