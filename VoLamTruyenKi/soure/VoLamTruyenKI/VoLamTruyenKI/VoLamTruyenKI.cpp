@@ -2,5 +2,6 @@
 
 int main()
 {
-	SoundIntro();
+	Intro x;
+	x.Out();
 }

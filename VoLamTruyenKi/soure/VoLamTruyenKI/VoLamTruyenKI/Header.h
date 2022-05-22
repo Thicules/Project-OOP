@@ -3,3 +3,4 @@
 #include "Sound.h"
 #include "NhanVat.h"
 #include "QuaiVat.h"
+#include "Intro.h"

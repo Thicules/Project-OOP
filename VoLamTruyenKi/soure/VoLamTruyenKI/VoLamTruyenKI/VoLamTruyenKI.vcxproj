@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="Intro.cpp" />
     <ClCompile Include="RunWord.cpp" />
     <ClCompile Include="Sound.cpp" />
     <ClCompile Include="VoLamTruyenKi.cpp" />
@@ -147,6 +148,7 @@
   <ItemGroup>
     <ClInclude Include="Graphics.h" />
     <ClInclude Include="Header.h" />
+    <ClInclude Include="Intro.h" />
     <ClInclude Include="QuaiVat.h" />
     <ClInclude Include="RunWord.h" />
     <ClInclude Include="Sound.h" />
