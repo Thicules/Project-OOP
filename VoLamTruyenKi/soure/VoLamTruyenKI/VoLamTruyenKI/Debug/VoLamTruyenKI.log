@@ -1,4 +1,13 @@
-﻿  Intro.cpp
-C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKi\VoLamTruyenKi\Intro.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKi\VoLamTruyenKi\Intro.cpp(17,20): warning C4018: '<': signed/unsigned mismatch
-  VoLamTruyenKi.vcxproj -> C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKi\Debug\VoLamTruyenKi.exe
+﻿  Graphics.cpp
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\Graphics.cpp(23,15): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\Graphics.cpp(23,18): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+  Intro.cpp
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\Intro.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\Intro.cpp(15,38): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\Intro.cpp(18,20): warning C4018: '<': signed/unsigned mismatch
+  SelectCharacters.cpp
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\SelectCharacters.cpp(8,20): warning C4018: '<': signed/unsigned mismatch
+  VoLamTruyenKi.cpp
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\Intro.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
+  VoLamTruyenKi.vcxproj -> C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\Debug\VoLamTruyenKi.exe

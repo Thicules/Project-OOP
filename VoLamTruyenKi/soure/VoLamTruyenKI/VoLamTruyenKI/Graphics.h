@@ -6,6 +6,7 @@
 #include <Windows.h>
 #include <vector>
 #include <ctime>
+#include "opencv.hpp"
 using namespace std;
 
 #define ColorCode_Back			0

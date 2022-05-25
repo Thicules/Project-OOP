@@ -4,3 +4,4 @@
 #include "NhanVat.h"
 #include "QuaiVat.h"
 #include "Intro.h"
+#include "SelectCharacters.h"

@@ -9,6 +9,8 @@ int main()
 	hideCur(); // ẩn trỏ chuột
 	Intro x;
 	x.Out();
+	SelectCharacters c;
 	clrscr();
+	c.Titile();
 	return 0;
 }

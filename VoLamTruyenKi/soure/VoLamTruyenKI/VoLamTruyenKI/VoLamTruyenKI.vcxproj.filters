@@ -16,6 +16,9 @@
     <Filter Include="Process">
       <UniqueIdentifier>{5476b5f2-772f-4c29-8d01-c423628837c3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="opencv">
+      <UniqueIdentifier>{c4b394a7-188f-4bb0-9ab2-a2ce52634ecc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="VoLamTruyenKi.cpp">
@@ -31,6 +34,12 @@
       <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="Intro.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectCharacters.cpp">
       <Filter>Process</Filter>
     </ClCompile>
   </ItemGroup>
@@ -58,6 +67,15 @@
     </ClInclude>
     <ClInclude Include="Intro.h">
       <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectCharacters.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="opencv.hpp">
+      <Filter>opencv</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
