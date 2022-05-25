@@ -5,3 +5,4 @@
 #include <mmsystem.h>
 
 void SoundIntro();
+void SoundSelectCharacters();

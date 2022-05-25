@@ -1,4 +1,4 @@
 ﻿  Intro.cpp
 C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKi\VoLamTruyenKi\Intro.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKi\VoLamTruyenKi\Intro.cpp(15,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKi\VoLamTruyenKi\Intro.cpp(17,20): warning C4018: '<': signed/unsigned mismatch
   VoLamTruyenKi.vcxproj -> C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKi\Debug\VoLamTruyenKi.exe
