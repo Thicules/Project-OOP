@@ -42,6 +42,12 @@
     <ClCompile Include="SelectCharacters.cpp">
       <Filter>Process</Filter>
     </ClCompile>
+    <ClCompile Include="NhanVat.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QuauVat.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Total.h">
@@ -73,9 +79,6 @@
     </ClInclude>
     <ClInclude Include="SelectCharacters.h">
       <Filter>Process</Filter>
-    </ClInclude>
-    <ClInclude Include="opencv.hpp">
-      <Filter>opencv</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -142,6 +142,8 @@
     <ClCompile Include="Font.cpp" />
     <ClCompile Include="Graphics.cpp" />
     <ClCompile Include="Intro.cpp" />
+    <ClCompile Include="NhanVat.cpp" />
+    <ClCompile Include="QuauVat.cpp" />
     <ClCompile Include="RunWord.cpp" />
     <ClCompile Include="SelectCharacters.cpp" />
     <ClCompile Include="Sound.cpp" />
@@ -152,7 +154,6 @@
     <ClInclude Include="Graphics.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="Intro.h" />
-    <ClInclude Include="opencv.hpp" />
     <ClInclude Include="QuaiVat.h" />
     <ClInclude Include="RunWord.h" />
     <ClInclude Include="SelectCharacters.h" />
