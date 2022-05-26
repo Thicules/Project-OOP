@@ -1,2 +1,27 @@
-﻿  QuauVat.cpp
+﻿  Intro.cpp
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\Intro.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\Intro.cpp(15,38): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\Intro.cpp(17,20): warning C4018: '<': signed/unsigned mismatch
+  NhanVat.cpp
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\NhanVat.cpp(74,32): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\NhanVat.cpp(75,31): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\NhanVat.cpp(76,30): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\NhanVat.cpp(82,31): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\NhanVat.cpp(83,31): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\NhanVat.cpp(84,30): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\NhanVat.cpp(90,31): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\NhanVat.cpp(91,31): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\NhanVat.cpp(92,30): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\NhanVat.cpp(99,31): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\NhanVat.cpp(100,31): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\NhanVat.cpp(101,31): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\NhanVat.cpp(107,31): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\NhanVat.cpp(108,32): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\NhanVat.cpp(109,30): warning C4305: 'return': truncation from 'double' to 'float'
+  QuauVat.cpp
+  VoLamTruyenKi.cpp
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\Intro.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\NhanVat.cpp(68): warning C4715: 'kiemtraHe': not all control paths return a value
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\NhanVat.cpp(113): warning C4715: 'TiledameA': not all control paths return a value
   VoLamTruyenKi.vcxproj -> C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\Debug\VoLamTruyenKi.exe

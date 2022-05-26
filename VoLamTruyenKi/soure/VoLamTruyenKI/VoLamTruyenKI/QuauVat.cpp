@@ -1,7 +1,7 @@
-#include"Quaivat.h"
+#include"QuaiVat.h"
 #include "Nhanvat.h"
 
-string Quaivat::getHe()
+string QuaiVat::getHe()
 {
 	return He;
 }
@@ -18,7 +18,7 @@ int QuaiDauLinh::getSatThuong()
 	return SatThuong;
 }
 
-int Quaivat::getSatThuongLenNhanVat(string HeNhanVat)
+int QuaiVat::getSatThuongLenNhanVat(string HeNhanVat)
 {
 	SatThuongLenNhanVat = (SatThuong * 1.0) * TiledameA(He, HeNhanVat);
 	return int(SatThuongLenNhanVat);

@@ -4,7 +4,7 @@
 #include "Total.h"
 using namespace std;
 
-class Quaivat
+class QuaiVat
 {
 protected:
 	string TenQuai;  // Nhập từ bàn phím
@@ -19,14 +19,14 @@ public:
 	string getHe();
 };
 
-class Quaithuong :public Quaivat
+class Quaithuong :public QuaiVat
 {
 public:
 	int getSatThuong();
 	void coutThongTin();
 };
 
-class QuaiDauLinh :public Quaivat
+class QuaiDauLinh :public QuaiVat
 {
 public:
 	int getSatThuong();

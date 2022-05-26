@@ -1,27 +1,42 @@
-﻿#include"Nhanvat.h"
+﻿#include"NhanVat.h"
 
-string Nhanvat::getHe()
+string NhanVat::getHe()
 {
 	He = kiemtraHe(MonPhai);
 	return He;
 }
 
-int Nhanvat::getSatThuong()
+int NhanVat::getSatThuong()
 {
 	SatThuong = CapDo * 5;
 	return SatThuong;
 }
 
-int Nhanvat::getSatThuongLenQuai(string HeQuai)
+int NhanVat::getSatThuongLenQuai(string HeQuai)
 {
 	SatThuongLenQuai = (SatThuong * 1.0) * TiledameA(He, HeQuai);
 	return int(SatThuongLenQuai);
 }
 
-void Nhanvat::coutThongTin()
+void NhanVat::coutThongTin()
 {
 
 };
+//tiểu long nữ
+TieuLongNu::TieuLongNu() {
+	TenNhanVat = "Tieu Long Nu";
+}
+// //Dương Quá
+// //Quách Tĩnh
+//Âu Dương Phong
+// Doãn Chí Bình
+// Kiều Phong
+// Hư Túc
+// Đoàn Dự
+// Trương Vô Kị
+// Lý Mạc Sầu
+// Vi Tiểu Bảo
+// Độc Cô Cầu Bại
 //  Chưa viết 
 
 string kiemtraHe(string MonPhai)
