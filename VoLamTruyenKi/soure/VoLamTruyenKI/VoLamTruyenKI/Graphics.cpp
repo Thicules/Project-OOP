@@ -42,7 +42,6 @@ void textColor(WORD color)
 
 	CONSOLE_SCREEN_BUFFER_INFO screen_buffer_info;
 	GetConsoleScreenBufferInfo(hConsoleOutput, &screen_buffer_info);
-
 	WORD wAttributes = screen_buffer_info.wAttributes;
 	color &= 0x000f;
 	wAttributes &= 0xfff0;
@@ -63,7 +62,6 @@ void backgroundColor(WORD color)
 	color <<= 4;
 	wAttributes &= 0xff0f;
 	wAttributes |= color;
-
 	SetConsoleTextAttribute(hConsoleOutput, wAttributes);
 }
 void printTextColor(int x, int y, string text, WORD color) {

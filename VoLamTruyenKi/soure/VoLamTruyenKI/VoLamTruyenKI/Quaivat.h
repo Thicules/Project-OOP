@@ -17,6 +17,7 @@ public:
 	int getSatThuongLenNhanVat(string HeNhanVat);
 	virtual void coutThongTin() = 0;
 	string getHe();
+	friend class XuLi;
 };
 
 class Quaithuong :public QuaiVat

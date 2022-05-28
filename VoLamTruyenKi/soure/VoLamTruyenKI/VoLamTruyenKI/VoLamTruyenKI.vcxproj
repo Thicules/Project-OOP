@@ -148,6 +148,7 @@
     <ClCompile Include="SelectCharacters.cpp" />
     <ClCompile Include="Sound.cpp" />
     <ClCompile Include="VoLamTruyenKi.cpp" />
+    <ClCompile Include="XuLi.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Font.h" />
@@ -160,6 +161,7 @@
     <ClInclude Include="Sound.h" />
     <ClInclude Include="Total.h" />
     <ClInclude Include="NhanVat.h" />
+    <ClInclude Include="XuLi.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -2,3 +2,4 @@
 
 class NhanVat;
 class QuaiVat;
+class XuLi;

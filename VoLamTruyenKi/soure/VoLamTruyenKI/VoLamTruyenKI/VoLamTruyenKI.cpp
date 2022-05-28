@@ -2,6 +2,8 @@
 
 int main()
 {
+	NhanVat* NV;
+	QuaiVat* QV;
 	fullScreen();
 	fullScreen(); // Chỉnh toàn bộ màn hình
 	removeScrollBar(); // xóa thanh cuộn

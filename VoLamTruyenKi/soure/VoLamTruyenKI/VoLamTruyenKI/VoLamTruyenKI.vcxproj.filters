@@ -16,9 +16,6 @@
     <Filter Include="Process">
       <UniqueIdentifier>{5476b5f2-772f-4c29-8d01-c423628837c3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv">
-      <UniqueIdentifier>{c4b394a7-188f-4bb0-9ab2-a2ce52634ecc}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="VoLamTruyenKi.cpp">
@@ -46,6 +43,9 @@
       <Filter>Header Files</Filter>
     </ClCompile>
     <ClCompile Include="QuauVat.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XuLi.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -79,6 +79,9 @@
     </ClInclude>
     <ClInclude Include="SelectCharacters.h">
       <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="XuLi.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

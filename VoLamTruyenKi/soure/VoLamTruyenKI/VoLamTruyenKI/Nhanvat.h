@@ -17,6 +17,7 @@ public:
 	int getSatThuong();  // Sat thương chưa tính hệ 
 	int getSatThuongLenQuai(string HeQuai); //Sát thương gây lên quái có "He"
 	void coutThongTin();
+	friend class XuLi;
 };
 class TieuLongNu :public NhanVat {  //tiểu long nữ
 public:
