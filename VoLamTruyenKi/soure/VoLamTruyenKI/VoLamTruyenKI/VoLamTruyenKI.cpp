@@ -11,7 +11,8 @@ int main()
 	Intro x;
 	x.Out();
 	SelectCharacters c;
-	clrscr();
+	clrscr();//xóa màn hình
 	c.Titile();
+	c.painMenu();
 	return 0;
 }

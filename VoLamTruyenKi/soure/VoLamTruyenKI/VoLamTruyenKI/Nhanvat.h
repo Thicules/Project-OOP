@@ -60,14 +60,6 @@ class LyMacSau :public NhanVat { //Lý Mạc Sầu
 public:
 	LyMacSau();
 };
-class ViTieuBao :public NhanVat { //Vi Tiểu Bảo
-public:
-	ViTieuBao();
-};
-class DocCoCauBai :public NhanVat { //Độc Cô Cầu Bại
-public:
-	DocCoCauBai();
-};
 
 string kiemtraHe(string MonPhai); // Chọn môn phái  từ hệ 
 

@@ -6,6 +6,8 @@
 #include <mmsystem.h>
 #include <string>
 #include "Graphics.h"
+#include <fstream>
+#include "Menu.h"
 using namespace std;
 
 class SelectCharacters {
@@ -15,4 +17,5 @@ public:
 	void Titile();
 	void img();
 	void run();
+	void painMenu();
 };
