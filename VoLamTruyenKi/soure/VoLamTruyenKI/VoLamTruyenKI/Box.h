@@ -2,6 +2,7 @@
 #include "Graphics.h"
 #include <iostream>
 #include <string>
+#include <fstream>
 using namespace std;
 
 class Box
@@ -22,4 +23,5 @@ public:
 	void XoaChuoi();
 	void XoaBox();
 	void XoaVien();
+	void inNhanVat(int x, int y, string file);
 };

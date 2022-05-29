@@ -115,7 +115,7 @@
     <Text Include="DuongQua.txt">
       <Filter>TXT</Filter>
     </Text>
-    <Text Include="QuanhTinh.txt">
+    <Text Include="QuachTinh.txt">
       <Filter>TXT</Filter>
     </Text>
     <Text Include="AuDuongPhong.txt">

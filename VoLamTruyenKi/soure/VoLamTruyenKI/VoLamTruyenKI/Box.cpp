@@ -109,3 +109,19 @@ void Box::XoaVien() {
 		cout << " ";
 	}
 }
+void Box::inNhanVat(int x, int y, string file) {
+	ifstream fi;
+	int i = 0;
+	fi.open(file);
+	string s[4];
+	while (!fi.eof()) {
+		getline(fi, s[i]);
+		i++;
+	}
+	for (int i = 0; i <= 3; i++) {
+		gotoXY(x + 1, y + 1 + i);
+		textColor(4);
+		cout << s[i] << endl;
+	}
+	fi.close();
+}
