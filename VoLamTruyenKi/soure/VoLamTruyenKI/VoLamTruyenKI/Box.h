@@ -14,6 +14,7 @@ public:
 	Box();
 	~Box();
 	// x, y, w, h, tColor, text
+	void Set(int, int);
 	void Set(int, int, int, int, int, string);
 	void VeBox();
 	void VeBoxChuCenter();
@@ -23,5 +24,8 @@ public:
 	void XoaChuoi();
 	void XoaBox();
 	void XoaVien();
+	void XoaChon();
+	int getX();
+	int getY();
 	void inNhanVat(int x, int y, string file);
 };

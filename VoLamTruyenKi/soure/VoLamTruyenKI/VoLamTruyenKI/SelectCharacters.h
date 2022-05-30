@@ -8,14 +8,16 @@
 #include "Graphics.h"
 #include <fstream>
 #include "Menu.h"
+#include "Nhanvat.h"
 using namespace std;
 
 class SelectCharacters {
+private:
+	Box a[10];
 public:
 	SelectCharacters() {}
 	~SelectCharacters() {}
 	void Titile();
-	void img();
-	void run();
 	void painMenu();
+	void select(string& NV);
 };

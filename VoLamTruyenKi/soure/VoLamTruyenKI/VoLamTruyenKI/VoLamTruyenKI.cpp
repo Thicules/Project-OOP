@@ -2,7 +2,7 @@
 int main()
 {
 	backgroundColor(15);
-	//NhanVat* NV;
+	NhanVat* a;
 	//QuaiVat* QV;
 	fullScreen(); // Chỉnh toàn bộ màn hình
 	removeScrollBar(); // xóa thanh cuộn
@@ -14,5 +14,9 @@ int main()
 	clrscr();//xóa màn hình
 	c.Titile();
 	c.painMenu();
+	string NV="";
+	c.select(NV);
+	clrscr();
+	cout << NV;
 	return 0;
 }

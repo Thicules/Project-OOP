@@ -13,6 +13,7 @@ protected:
 	double SatThuongLenQuai;
 	string He;
 public:
+	NhanVat();
 	string getHe();
 	int getSatThuong();  // Sat thương chưa tính hệ 
 	int getSatThuongLenQuai(string HeQuai); //Sát thương gây lên quái có "He"

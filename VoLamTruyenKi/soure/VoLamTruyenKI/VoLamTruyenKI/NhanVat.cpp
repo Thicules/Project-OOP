@@ -1,5 +1,8 @@
 ﻿#include"NhanVat.h"
 
+NhanVat::NhanVat() {
+	He ="";
+}
 string NhanVat::getHe()
 {
 	He = kiemtraHe(MonPhai);

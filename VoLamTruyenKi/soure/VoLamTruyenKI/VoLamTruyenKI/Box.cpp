@@ -53,13 +53,9 @@ void Box::VeBoxChuCenter() {
 	this->InChuoiCenter();
 }
 void Box::VeBoxChon() {
-	this->x -= 2;
-	gotoXY(this->x - 3, this->y + 2);
-	textColor(this->tColor);
+	gotoXY(this->x -2, this->y + 2);
+	textColor(10);
 	cout << ">>";
-	textColor(7);
-	this->VeBox();
-	this->x += 2;
 }
 void Box::InChuoi() {
 	textColor(this->tColor);
@@ -124,4 +120,18 @@ void Box::inNhanVat(int x, int y, string file) {
 		cout << s[i] << endl;
 	}
 	fi.close();
+}
+void Box::Set(int ox, int oy) {
+	x = ox;
+	y = oy;
+}
+void Box::XoaChon() {
+	gotoXY(this->x - 2, this->y + 2);
+	cout <<"  ";
+}
+int Box::getX() {
+	return this->x;
+}
+int Box::getY() {
+	return this->y;
 }
