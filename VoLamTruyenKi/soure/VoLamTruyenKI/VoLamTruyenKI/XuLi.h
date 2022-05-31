@@ -7,6 +7,19 @@
 using namespace std;
 
 class XuLi {
+	NhanVat* NV;
+	QuaiVat* QV;
 public:
-	bool Win(NhanVat* NV, QuaiVat* QV);
+	~XuLi()
+	{
+		delete NV, QV;
+
+	};
+	bool Win();
+	void KhoiTaoNhanVat(string TenNhanVat);
+	void resetQuai();   // Tao quai vat moi sau khi con cu chet di 
+	void KhoiTaoQuaiVat();
+	void Start();
 };
+
+string randLoaiQuai();

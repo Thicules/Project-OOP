@@ -7,9 +7,8 @@
 using namespace std;
 class TuongKhac {
 private:
-	string check(string He1, string He2);
 public:
-	friend class XuLi;
+	string check(string He1, string He2);
 	TuongKhac() {
 	};
 };

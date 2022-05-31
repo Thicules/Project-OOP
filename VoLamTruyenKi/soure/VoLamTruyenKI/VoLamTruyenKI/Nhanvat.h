@@ -6,26 +6,26 @@ using namespace std;
 
 class NhanVat {
 protected:
-	string TenNhanVat; 
-	string MonPhai;   
-	int CapDo;       
-	int SatThuong;
-	double SatThuongLenQuai;
+	NhanVat() { CapDo = 1; }
+	~NhanVat() {};
+	string TenNhanVat;
+	string MonPhai;
+	int CapDo = 1;
+	int SatThuong; 
 	string He;
 public:
-	NhanVat();
 	string getHe();
 	int getSatThuong();  // Sat thương chưa tính hệ 
-	int getSatThuongLenQuai(string HeQuai); //Sát thương gây lên quái có "He"
-	void coutThongTin();
-	virtual void test() = 0;
+	/*void coutThongTin() {};*/
 	friend class XuLi;
+	void upLV(string);
+	void coutNhanVat();
 };
 class TieuLongNu :public NhanVat {  //tiểu long nữ
 public:
 	TieuLongNu();
 };
-class DuongQua:public NhanVat { //Dương Quá
+class DuongQua :public NhanVat { //Dương Quá
 public:
 	DuongQua();
 };
@@ -53,7 +53,7 @@ class DoanDu :public NhanVat { //Đoàn Dự
 public:
 	DoanDu();
 };
-class TruongVoKi:public NhanVat { //Trương Vô Kị
+class TruongVoKi :public NhanVat { //Trương Vô Kị
 public:
 	TruongVoKi();
 };
@@ -64,4 +64,5 @@ public:
 
 string kiemtraHe(string MonPhai); // Chọn môn phái  từ hệ 
 
-float TiledameA(string HeA, string HeB); // Tỉ lệ dame Hệ A gây lên Hệ B
+int RandLV1();
+int RandLV2();

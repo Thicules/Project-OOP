@@ -1,34 +1,28 @@
 ﻿#include"NhanVat.h"
 
-NhanVat::NhanVat() {
-	He ="";
-}
 string NhanVat::getHe()
 {
-	He = kiemtraHe(MonPhai);
-	return He;
+	return this->He;
 }
 
 int NhanVat::getSatThuong()
 {
-	SatThuong = CapDo * 5;
-	return SatThuong;
+	this->SatThuong = this->CapDo * 5;
+	return this->SatThuong;
 }
 
-int NhanVat::getSatThuongLenQuai(string HeQuai)
+void NhanVat::coutNhanVat()
 {
-	SatThuongLenQuai = (SatThuong * 1.0) * TiledameA(He, HeQuai);
-	return int(SatThuongLenQuai);
+	cout << "Nhan vat:\t" << this->TenNhanVat << endl;
+	cout << "Mon phai:\t" << this->MonPhai << endl;
+	cout << "Cap do:\t\t" << this->CapDo << endl;
+	cout << "Sat thuong:\t" << this->SatThuong << endl;
 }
 
-void NhanVat::coutThongTin()
-{
-
-};
 //tiểu long nữ
 TieuLongNu::TieuLongNu() {
 	TenNhanVat = "Tieu Long Nu";
-	MonPhai = "Thien vuong bang";
+	MonPhai = "Thien Vuong Bang";
 	He = "Kim";
 }
 // //Dương Quá
@@ -74,7 +68,7 @@ DoanDu::DoanDu() {
 	He = "Hoa";
 }
 // Trương Vô Kị
-TruongVoKi::TruongVoKi(){
+TruongVoKi::TruongVoKi() {
 	TenNhanVat = "Truong Vo ki";
 	MonPhai = "Con Lon";
 	He = "Tho";
@@ -115,47 +109,27 @@ string kiemtraHe(string MonPhai)
 		return "Tho";
 }
 
-float TiledameA(string HeA, string HeB)
+void NhanVat::upLV(string TenQuai)
 {
-	if (HeA == "Kim")
-	{
-		if (HeB == "Thuy") return 1.1;
-		if (HeB == "Moc") return 1.2;
-		if (HeB == "Hoa")return 0.8;
-		return 1;
-	};
+	int a;
+	if (TenQuai == "Quai Thuong") a = 0;
+	else a = 1;
+	(a == 0) ? (CapDo += RandLV1()) : (CapDo += RandLV2());
+}
 
-	if (HeA == "Thuy")
-	{
-		if (HeB == "Moc") return 1.1;
-		if (HeB == "Hoa") return 1.2;
-		if (HeB == "Tho")return 0.8;
-		return 1;
-	};
+int RandLV1()
+{
+	//10% tang 2 lv. 90% tang 1lv
+	int x = rand() % 10;
+	if (x == 0) return 2;
+	else return 1;
+}
 
-	if (HeA == "Moc")
-	{
-		if (HeB == "Hoa") return 1.1;
-		if (HeB == "Tho") return 1.2;
-		if (HeB == "Kim")return 0.8;
-		return 1;
-	};
-
-
-	if (HeA == "Hoa")
-	{
-		if (HeB == "Tho") return 1.1;
-		if (HeB == "Kim") return 1.2;
-		if (HeB == "Thuy")return 0.8;
-		return 1;
-	};
-
-	if (HeA == "Tho")
-	{
-		if (HeB == "Kim") return 1.1;
-		if (HeB == "Thuy") return 1.2;
-		if (HeB == "Moc")return 0.8;
-		return 1;
-	};
-
+int RandLV2()
+{
+	//12% tang 3 lv, 83% tang 2lv ,5% tang 1lv
+	int x = rand() % 100;
+	if (x < 12) return 3;
+	if (x < 17) return 1;
+	return 2;
 }
