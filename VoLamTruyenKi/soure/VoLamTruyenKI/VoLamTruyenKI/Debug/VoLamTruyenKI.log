@@ -1,2 +1,9 @@
-﻿  VoLamTruyenKi.cpp
+﻿  XuLi.cpp
+D:\Github\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(14,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Github\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(15,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Github\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(17,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Github\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(20,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Github\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(21,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Github\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(25,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Github\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(26,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   VoLamTruyenKi.vcxproj -> D:\Github\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\Debug\VoLamTruyenKi.exe

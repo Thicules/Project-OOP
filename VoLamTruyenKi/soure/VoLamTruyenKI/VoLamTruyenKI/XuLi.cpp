@@ -10,14 +10,20 @@ bool XuLi::Win() {
 	string He1 = NV->getHe();
 	string He2 = QV->getHe();
 	string result = a.check(He1, He2);
-	float SatThuongNV;
-	float SatThuongQV;
+	string result1 = a.check(He2, He1);
+	float SatThuongNV = NV->getSatThuong();
+	float SatThuongQV = QV->getSatThuong();
 	if (result == "Sinh") {
 		SatThuongNV = NV->getSatThuong() * 1.1;
 	}
-	else if (result == "Khac") {
+	if (result == "Khac") {
 		SatThuongNV = NV->getSatThuong() * 1.2;
 		SatThuongQV = QV->getSatThuong() * 0.8;
+	}
+	if (result1 == "Khac")
+	{
+		SatThuongNV = NV->getSatThuong() * 0.8;
+		SatThuongQV = QV->getSatThuong() * 1.2;
 	}
 	cout << "-----------------------------------" << endl;
 	NV->coutNhanVat();
@@ -66,7 +72,6 @@ void XuLi::Start()
 	KhoiTaoQuaiVat();
 	while (Win())
 	{
-
 		NV->upLV(QV->getTenQuai());
 		resetQuai();
 	}

@@ -48,11 +48,13 @@ int QuaiDauLinh::getSatThuong()
 
 void QuaiThuong::upLV()
 {
-	this->CapDo += RandLV3();
+	CapDo += RandLV3();
+	SatThuong = CapDo * 3;
 }
 
 void QuaiDauLinh::upLV() {
 	CapDo += 1;
+	SatThuong = CapDo * 7;
 }
 
 int RandLV3()
