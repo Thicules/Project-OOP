@@ -13,17 +13,12 @@ private:
 public:
 	Box();
 	~Box();
-	// x, y, w, h, tColor, text
 	void Set(int, int);
+	// x, y, w, h, tColor, text
 	void Set(int, int, int, int, int, string);
 	void VeBox();
-	void VeBoxChuCenter();
 	void VeBoxChon();
 	void InChuoi();
-	void InChuoiCenter();
-	void XoaChuoi();
-	void XoaBox();
-	void XoaVien();
 	void XoaChon();
 	int getX();
 	int getY();

@@ -7,7 +7,7 @@
 #include <string>
 #include "Graphics.h"
 #include <fstream>
-#include "Menu.h"
+#include "Box.h"
 #include "Nhanvat.h"
 using namespace std;
 

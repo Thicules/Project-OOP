@@ -6,3 +6,6 @@ void SoundIntro() {
 void SoundSelectCharacters() {
 	PlaySound(TEXT("SelectCharacters.wav"), NULL, SND_SYNC);
 }
+void SoundRandomQuai() {
+	PlaySound(TEXT("RandomQuai.wav"), NULL, SND_SYNC);
+}

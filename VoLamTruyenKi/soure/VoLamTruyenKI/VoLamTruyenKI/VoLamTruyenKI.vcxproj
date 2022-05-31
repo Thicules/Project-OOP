@@ -142,10 +142,9 @@
     <ClCompile Include="Box.cpp" />
     <ClCompile Include="Graphics.cpp" />
     <ClCompile Include="Intro.cpp" />
-    <ClCompile Include="Menu.cpp" />
     <ClCompile Include="NhanVat.cpp" />
+    <ClCompile Include="Play.cpp" />
     <ClCompile Include="QuaiVat.cpp" />
-    <ClCompile Include="RunWord.cpp" />
     <ClCompile Include="SelectCharacters.cpp" />
     <ClCompile Include="Sound.cpp" />
     <ClCompile Include="TuongKhac.cpp" />
@@ -157,9 +156,8 @@
     <ClInclude Include="Graphics.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="Intro.h" />
-    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Play.h" />
     <ClInclude Include="QuaiVat.h" />
-    <ClInclude Include="RunWord.h" />
     <ClInclude Include="SelectCharacters.h" />
     <ClInclude Include="Sound.h" />
     <ClInclude Include="Total.h" />

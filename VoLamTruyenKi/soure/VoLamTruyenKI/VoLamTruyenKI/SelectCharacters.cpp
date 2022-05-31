@@ -107,7 +107,7 @@ void  SelectCharacters::select(string& NV) {
 				Choose.Set(x, y);
 				Choose.VeBoxChon();
 			}
-			else if (key == 13) {
+			else if (key == 13) {//enter
 				if (x == a[0].getX() && a[0].getY() == y)
 					NV = "Tieu Long Nu";
 				else if (x == a[1].getX() && a[1].getY() == y)

@@ -6,3 +6,4 @@
 
 void SoundIntro();
 void SoundSelectCharacters();
+void SoundRandomQuai();

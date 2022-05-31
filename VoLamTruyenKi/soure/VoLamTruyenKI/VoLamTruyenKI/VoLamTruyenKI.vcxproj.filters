@@ -30,9 +30,6 @@
     <ClCompile Include="Sound.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="RunWord.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
     <ClCompile Include="Intro.cpp">
       <Filter>Process</Filter>
     </ClCompile>
@@ -54,8 +51,8 @@
     <ClCompile Include="Box.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="Menu.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="Play.cpp">
+      <Filter>Process</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -77,9 +74,6 @@
     <ClInclude Include="Header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="RunWord.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
     <ClInclude Include="Intro.h">
       <Filter>Process</Filter>
     </ClInclude>
@@ -95,8 +89,8 @@
     <ClInclude Include="Box.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="Menu.h">
-      <Filter>Resource Files</Filter>
+    <ClInclude Include="Play.h">
+      <Filter>Process</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
