@@ -27,7 +27,7 @@ void Box::VeBox() {
 		gotoXY(this->x + i, this->y);
 		cout << '_';
 		gotoXY(this->x + i, this->y + this->h);
-		cout << '_';
+		cout << '-';
 	}
 	for (i = 0; i <= this->h; i++)
 	{
@@ -50,6 +50,8 @@ void Box::VeBox() {
 void Box::VeBoxChon() {
 	gotoXY(this->x -2, this->y + 2);
 	textColor(10);
+	cout << ">>";
+	gotoXY(this->x - 2, this->y + 3);
 	cout << ">>";
 }
 
@@ -82,6 +84,8 @@ void Box::Set(int ox, int oy) {
 }
 void Box::XoaChon() {
 	gotoXY(this->x - 2, this->y + 2);
+	cout <<"  ";
+	gotoXY(this->x - 2, this->y + 3);
 	cout <<"  ";
 }
 int Box::getX() {

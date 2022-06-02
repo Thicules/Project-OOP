@@ -13,23 +13,60 @@ void XuLi::intro(){
 	thread sound(SoundRandomQuai);
 	sound.join();
 	ifstream fi;
-	int i = 0;
-	for (int i = 0; i < 50; i++) {
+	for (int i = 0; i <2; i++) {
 		int j = 0;
-		fi.open("BatQuai.txt");
+		fi.open("BatQuai1.txt");
 		while (!fi.eof()) {
 			string s;
 			textColor(0);
-			gotoXY(WidthConsole / 3.5, 5 + j);
+			gotoXY(WidthConsole / 3, 7 + j);
 			getline(fi, s);
 			cout << s << endl;
 			j++;
 		}
-		Sleep(40);
-		fi.close();
+		Sleep(500);
 		clrscr();
+		fi.close();
+		j = 0;
+		fi.open("BatQuai2.txt");
+		while (!fi.eof()) {
+			string s;
+			textColor(0);
+			gotoXY(WidthConsole / 3, 7 + j);
+			getline(fi, s);
+			cout << s << endl;
+			j++;
+		}
+		Sleep(500);
+		clrscr();
+		fi.close();
+		j = 0;
+		fi.open("BatQuai3.txt");
+		while (!fi.eof()) {
+			string s;
+			textColor(0);
+			gotoXY(WidthConsole / 3, 7 + j);
+			getline(fi, s);
+			cout << s << endl;
+			j++;
+		}
+		Sleep(500);
+		clrscr();
+		fi.close();
+		j = 0;
+		fi.open("BatQuai4.txt");
+		while (!fi.eof()) {
+			string s;
+			textColor(0);
+			gotoXY(WidthConsole / 3, 7 + j);
+			getline(fi, s);
+			cout << s << endl;
+			j++;
+		}
+		Sleep(500);
+		clrscr();
+		fi.close();
 	}
-
 }
 bool XuLi::Win() {
 	TuongKhac a;
@@ -58,10 +95,15 @@ bool XuLi::Win() {
 	cout << "ST Nhan Vat: \t" << SatThuongNV << endl;
 	cout << "ST Quai Vat: \t" << SatThuongQV << endl;
 	if (SatThuongNV > SatThuongQV) {
+		SoundNVThang();
 		cout << "  Nhan Vat Thang " << endl; return 1;
 	}
-	else cout << "  Quai Vat Thang";
+	else {
+		SoundQVThang();
+		cout << "  Quai Vat Thang";
+	}
 	cout << endl;
+	Sleep(50);
 	return 0;
 }
 
@@ -88,10 +130,17 @@ void XuLi::KhoiTaoQuaiVat()
 void XuLi::resetQuai()
 {
 	int LV = QV->getLV();
-	if (randLoaiQuai() == "QuaiThuong") QV = new QuaiThuong;
-	else QV = new QuaiDauLinh;
+	if (randLoaiQuai() == "QuaiThuong") {
+		QV = new QuaiThuong;
+		SoundQuaiThuong();
+	}
+	else {
+		QV = new QuaiDauLinh;
+		SoundQuaiDauLinh();
+	}
 	QV->setLV(LV);
 	QV->upLV();
+	Sleep(30);
 }
 
 void XuLi::Start()
@@ -100,8 +149,25 @@ void XuLi::Start()
 	int dem = 1;
 	while (Win())
 	{
+		Sleep(1000);
+		clrscr();
+		if (dem == 5) {
+			SoundWin();
+			return;
+		}
+		Sleep(50);
+		SoundNext();
+		SoundResetQV();
+		if (QV->getHe() == "Kim") SoundHeKim();
+		else if (QV->getHe() == "Moc") SoundHeMoc();
+		else if (QV->getHe() == "Thuy") SoundHeThuy();
+		else if (QV->getHe() == "Hoa") SoundHeHoa();
+		else SoundHeTho();
+		Sleep(50);
 		NV->upLV(QV->getTenQuai());
 		resetQuai();
+		Sleep(20);
+		dem++;
 	}
 }
 
