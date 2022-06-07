@@ -82,8 +82,12 @@ string RandHe()
 
 void QuaiVat::coutQuaiVat()
 {
-	cout << "Ten quai vat:\t" << TenQuai << endl;
-	cout << "Cap do:\t\t" << CapDo << endl;
-	cout << "He:\t\t" << He << endl;
-	cout << "Sat thuong:\t" << SatThuong << endl;
+	gotoXY(WidthConsole / 2.5, HeightConsole / 3.5+6);
+	cout << "Ten quai vat:\t" << TenQuai;
+	gotoXY(WidthConsole / 2.5, HeightConsole / 3.5 +7);
+	cout << "Cap do:\t\t" << CapDo;
+	gotoXY(WidthConsole / 2.5, HeightConsole / 3.5 + 8);
+	cout << "He:\t\t" << He;
+	gotoXY(WidthConsole / 2.5, HeightConsole / 3.5 + 9);
+	cout << "Sat thuong:\t" << SatThuong;
 }

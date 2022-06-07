@@ -12,4 +12,6 @@ public:
 	Intro();
 	~Intro();
 	void Out();
+	void Outro();
+	void BreakTime();
 };

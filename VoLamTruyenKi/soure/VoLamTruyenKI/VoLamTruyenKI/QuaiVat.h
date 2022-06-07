@@ -3,6 +3,7 @@
 #include <string>
 #include "Total.h"
 #include "XuLi.h"
+#include "Graphics.h"
 using namespace std;
 
 class QuaiVat {
@@ -15,7 +16,7 @@ public:
 	QuaiVat();
 	~QuaiVat()
 	{
-
+		CapDo = 1;
 	};
 	void setLV(int a);  // Nhận lv để bắt đầu tạo quái
 	int getLV();   // Lấy LV để random quái tiếp theo;

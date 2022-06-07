@@ -2,6 +2,7 @@
 #include "Total.h"
 #include <iostream>
 #include <string>
+#include "Graphics.h"
 using namespace std;
 
 class NhanVat {

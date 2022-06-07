@@ -46,3 +46,6 @@ void SoundHeTho() {
 void SoundWin() {
 	PlaySound(TEXT("Win.wav"), NULL, SND_SYNC);
 }
+void SoundChane() {
+	PlaySound(TEXT("Chane.wav"), NULL, SND_SYNC);
+}

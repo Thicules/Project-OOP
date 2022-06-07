@@ -20,3 +20,4 @@ void SoundHeThuy();
 void SoundHeHoa();
 void SoundHeTho();
 void SoundWin();
+void SoundChane();

@@ -7,7 +7,6 @@
 #include <random>
 #include <thread>
 
-int ak = 1;
 
 void XuLi::intro(){
 	thread sound(SoundRandomQuai);
@@ -88,22 +87,30 @@ bool XuLi::Win() {
 		SatThuongNV = NV->getSatThuong() * 0.8;
 		SatThuongQV = QV->getSatThuong() * 1.2;
 	}
-	cout << "-----------------------------------" << endl;
-	cout << "     ROUND " << ak << endl; ak += 1;
-	NV->coutNhanVat(); cout << "     ---VS---" << endl;
+	gotoXY(WidthConsole / 2.5-2, HeightConsole / 3.5 - 2);
+	cout << "-----------------------------------";
+	gotoXY(WidthConsole / 2.5, HeightConsole / 3.5 - 1);
+	cout << "     ROUND " << ak; ak += 1;
+	NV->coutNhanVat(); 
+	gotoXY(WidthConsole / 2.5+4, HeightConsole / 3.5 +5);
+	cout << "     ---VS---";
 	QV->coutQuaiVat();
-	cout << "ST Nhan Vat: \t" << SatThuongNV << endl;
-	cout << "ST Quai Vat: \t" << SatThuongQV << endl;
+	gotoXY(WidthConsole / 2.5, HeightConsole / 3.5 + 10);
+	cout << "ST Nhan Vat: \t" << SatThuongNV;
+	gotoXY(WidthConsole / 2.5, HeightConsole / 3.5 +11);
+	cout << "ST Quai Vat: \t" << SatThuongQV;
+	gotoXY(WidthConsole / 2.5, HeightConsole / 3.5 +15);
 	if (SatThuongNV > SatThuongQV) {
 		SoundNVThang();
-		cout << "  Nhan Vat Thang " << endl; return 1;
+		cout << "  Nhan Vat Thang ";
+		return 1;
 	}
 	else {
 		SoundQVThang();
 		cout << "  Quai Vat Thang";
 	}
 	cout << endl;
-	Sleep(50);
+	Sleep(80);
 	return 0;
 }
 
@@ -147,27 +154,30 @@ void XuLi::Start()
 {
 	KhoiTaoQuaiVat();
 	int dem = 1;
+	textColor(12);
 	while (Win())
 	{
 		Sleep(1000);
 		clrscr();
 		if (dem == 5) {
-			SoundWin();
+			Intro a;
+			a.Outro();
 			return;
 		}
 		Sleep(50);
 		SoundNext();
 		SoundResetQV();
+		resetQuai();
 		if (QV->getHe() == "Kim") SoundHeKim();
 		else if (QV->getHe() == "Moc") SoundHeMoc();
 		else if (QV->getHe() == "Thuy") SoundHeThuy();
 		else if (QV->getHe() == "Hoa") SoundHeHoa();
 		else SoundHeTho();
-		Sleep(50);
 		NV->upLV(QV->getTenQuai());
-		resetQuai();
-		Sleep(20);
+		Sleep(100);
 		dem++;
+		Intro t;
+		t.BreakTime();
 	}
 }
 

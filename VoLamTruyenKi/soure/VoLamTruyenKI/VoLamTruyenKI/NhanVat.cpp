@@ -13,11 +13,16 @@ int NhanVat::getSatThuong()
 
 void NhanVat::coutNhanVat()
 {
-	cout << "Nhan vat:\t" << this->TenNhanVat << endl;
-	cout << "Mon phai:\t" << this->MonPhai << endl;
-	cout << "He:\t\t" << this->He << endl;
-	cout << "Cap do:\t\t" << this->CapDo << endl;
-	cout << "Sat thuong:\t" << this->SatThuong << endl;
+	gotoXY(WidthConsole / 2.5, HeightConsole / 3.5);
+	cout << "Nhan vat:\t" << this->TenNhanVat;
+	gotoXY(WidthConsole / 2.5, HeightConsole / 3.5+1);
+	cout << "Mon phai:\t" << this->MonPhai;
+	gotoXY(WidthConsole / 2.5, HeightConsole / 3.5+2);
+	cout << "He:\t\t" << this->He;
+	gotoXY(WidthConsole / 2.5, HeightConsole / 3.5+3);
+	cout << "Cap do:\t\t" << this->CapDo;
+	gotoXY(WidthConsole / 2.5, HeightConsole / 3.5 + 4);
+	cout << "Sat thuong:\t" << this->SatThuong;
 }
 
 //tiểu long nữ

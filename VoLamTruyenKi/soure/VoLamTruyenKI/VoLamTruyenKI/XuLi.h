@@ -9,11 +9,14 @@ using namespace std;
 class XuLi {
 	NhanVat* NV;
 	QuaiVat* QV;
+	int ak;
 public:
+	XuLi() {
+		ak = 1;
+	}
 	~XuLi()
-	{
-		delete NV, QV;
-
+	{	
+		delete[]QV;
 	};
 	void intro();
 	bool Win();
