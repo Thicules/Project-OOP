@@ -108,6 +108,11 @@ bool XuLi::Win() {
 	else {
 		SoundQVThang();
 		cout << "  Quai Vat Thang";
+		Sleep(200);
+		clrscr();
+		Intro z;
+		z.Defeat();
+		Sleep(2000);
 	}
 	cout << endl;
 	Sleep(80);
@@ -162,6 +167,8 @@ void XuLi::Start()
 		if (dem == 5) {
 			Intro a;
 			a.Outro();
+			a.Victory();
+			Sleep(2000);
 			return;
 		}
 		Sleep(50);
@@ -184,6 +191,9 @@ void XuLi::Start()
 string randLoaiQuai()
 {
 	int x = rand() % 10;
-	if (x < 3) return "QuaiDauLinh";
+	if (x < 5) return "QuaiDauLinh";
 	else return "QuaiThuong";
+}
+int XuLi::getak() {
+	return ak;
 }

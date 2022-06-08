@@ -118,5 +118,8 @@
     <Text Include="TruongVoKi.txt">
       <Filter>TXT</Filter>
     </Text>
+    <Text Include="Output.txt">
+      <Filter>TXT</Filter>
+    </Text>
   </ItemGroup>
 </Project>

@@ -171,6 +171,7 @@
     <Text Include="HuTuc.txt" />
     <Text Include="KieuPhong.txt" />
     <Text Include="LyMacSau.txt" />
+    <Text Include="Output.txt" />
     <Text Include="QuachTinh.txt" />
     <Text Include="TieuLongNu.txt" />
     <Text Include="TruongVoKi.txt" />

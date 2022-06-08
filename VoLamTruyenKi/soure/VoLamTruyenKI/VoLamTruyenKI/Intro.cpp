@@ -50,3 +50,51 @@ void Intro::BreakTime() {
 	sound.join();
 	clrscr();
 }
+void Intro::Charactor() {
+	ifstream fi;
+	fi.open("Nhanvat1.txt");
+	int i = 0;
+	while (!fi.eof()){
+		string s;
+		getline(fi, s);
+		gotoXY(WidthConsole / 15, HeightConsole / 6 + i);
+		cout << s;
+		i++;
+	}
+	fi.close();
+}
+void Intro::Victory() {
+	ifstream fi;
+	fi.open("victory.txt");
+	int i = 0;
+	while (!fi.eof()) {
+		string s;
+		getline(fi, s);
+		gotoXY(WidthConsole /4, HeightConsole / 6 + i);
+		cout << s;
+		i++;
+	}
+	fi.close();
+}
+void Intro::Defeat() {
+	ifstream fi;
+	fi.open("Defeat.txt");
+	int i = 0;
+	while (!fi.eof()) {
+		string s;
+		getline(fi, s);
+		gotoXY(WidthConsole / 4, HeightConsole / 6 + i);
+		cout << s;
+		i++;
+	}
+	fi.close();
+}
+void Intro::Write(int ak,ofstream& fo,int n,string NV) {
+	fo<< "Tran " << n << ":\n";
+	fo << "Nhan vat : " << NV << endl;
+	if (ak <= 5) {
+		fo << "Quai vat thang\n";
+		fo << "Ket thuc o ai " << ak << endl;
+	}
+	else fo<< "Chien thang\n";
+}

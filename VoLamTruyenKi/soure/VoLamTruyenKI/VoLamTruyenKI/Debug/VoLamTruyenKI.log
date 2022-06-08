@@ -1,1 +1,9 @@
-﻿  VoLamTruyenKi.vcxproj -> C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\Debug\VoLamTruyenKi.exe
+﻿  Intro.cpp
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\XuLi.h(19,1): warning C4150: deletion of pointer to incomplete type 'QuaiVat'; no destructor called
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\Total.h(4): message : see declaration of 'QuaiVat'
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\Intro.cpp(14,38): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\Intro.cpp(16,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\Intro.cpp(25,43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\Intro.cpp(25,22): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\VoLamTruyenKi\Intro.cpp(27,20): warning C4018: '<': signed/unsigned mismatch
+  VoLamTruyenKi.vcxproj -> C:\Users\Cao Thi\Desktop\Project-OOP\VoLamTruyenKi\soure\VoLamTruyenKI\Debug\VoLamTruyenKi.exe

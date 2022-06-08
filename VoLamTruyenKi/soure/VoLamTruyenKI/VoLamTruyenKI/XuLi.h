@@ -24,6 +24,7 @@ public:
 	void resetQuai();   // Tao quai vat moi sau khi con cu chet di 
 	void KhoiTaoQuaiVat();
 	void Start();
+	int getak();
 };
 
 string randLoaiQuai();

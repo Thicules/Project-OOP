@@ -1,6 +1,8 @@
 ﻿#include "Header.h"
 int main()
 {
+	ofstream fo;
+	fo.open("Output.txt");
 	backgroundColor(15);
 	//QuaiVat* QV;
 	fullScreen(); // Chỉnh toàn bộ màn hình
@@ -11,12 +13,15 @@ int main()
 	Intro i;
 	i.Out();
 	clrscr();
+	i.Charactor();
 	gotoXY(WidthConsole / 2.5, HeightConsole / 2.5);
 	textColor(3);
 	cout << "Nhap ten nguoi choi: ";
 	getline(cin, Name);
 	clrscr();
+	int n = 0;
 	while (1) {
+		n++;
 		SelectCharacters c;
 		clrscr();//xóa màn hình
 		c.Titile();
@@ -56,12 +61,15 @@ int main()
 					ox -= 22;
 				}
 				else if (key == 13) {
+					Intro w;
+					w.Write(GAME.getak(), fo, n,NV);
 					if (ox == x) {
 						clrscr();
 						break;
 					}
 					else {
 						clrscr();
+						fo.close();
 						exit(0);
 					}
 				}
