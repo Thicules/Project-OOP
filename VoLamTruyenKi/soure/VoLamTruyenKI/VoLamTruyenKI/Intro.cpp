@@ -12,7 +12,7 @@ void Intro::Out() {
 	thread threadSound(SoundIntro);
 	textColor(10);
 	gotoXY(WidthConsole/3, HeightConsole/2.5);
-	string s = "   ----*Chao mung thay va cac ban den voi vo lam truyen ki*----";
+	string s = "   ----*CHAO MUNG THAY VA CAC BAN DEN VOI VO LAM TRUYEN KI*----";
 	for (int i = 0; i < s.size(); i++) {
 		cout << s[i];
 		Sleep(45);
@@ -97,4 +97,18 @@ void Intro::Write(int ak,ofstream& fo,int n,string NV) {
 		fo << "Ket thuc o ai " << ak << endl;
 	}
 	else fo<< "Chien thang\n";
+}
+void Intro::History() {
+	ifstream fi;
+	fi.open("Output.txt");
+	int k = 0;
+	while (!fi.eof()) {
+		string s;
+		getline(fi, s);
+		gotoXY(WidthConsole / 2, HeightConsole / 3 + k);
+		textColor(5);
+		cout << s;
+		k++;
+	}
+	fi.close();
 }

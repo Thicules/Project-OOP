@@ -18,6 +18,7 @@ int main()
 	textColor(3);
 	cout << "Nhap ten nguoi choi: ";
 	getline(cin, Name);
+	fo << "Lich su dau\nTen nguoi choi: " << Name << endl;
 	clrscr();
 	int n = 0;
 	while (1) {
@@ -36,11 +37,11 @@ int main()
 		GAME.Start();
 		clrscr();
 		Box a;
-		gotoXY(WidthConsole / 2.5 - 3, HeightConsole / 2 - 2);
+		gotoXY(WidthConsole / 2.5 +3, HeightConsole / 2 - 2);
 		cout << "Ban co muon thu lai vo lam truyen ki khong?";
 		a.Set(WidthConsole / 2.5, HeightConsole / 2, 10, 4, 4, "Tiep tuc");
 		a.VeBox();
-		a.Set(WidthConsole / 2.5 + 22, HeightConsole / 2, 10, 4, 4, "Thoat");
+		a.Set(WidthConsole / 2.5 + 22, HeightConsole / 2, 25, 4, 4, "Thoat va xem lich su");
 		a.VeBox();
 		int x = WidthConsole / 2.5;
 		int y = HeightConsole / 2;
@@ -70,6 +71,7 @@ int main()
 					else {
 						clrscr();
 						fo.close();
+						i.History();
 						exit(0);
 					}
 				}

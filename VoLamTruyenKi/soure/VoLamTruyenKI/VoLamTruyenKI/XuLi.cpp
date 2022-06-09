@@ -191,7 +191,7 @@ void XuLi::Start()
 string randLoaiQuai()
 {
 	int x = rand() % 10;
-	if (x < 5) return "QuaiDauLinh";
+	if (x < 7) return "QuaiDauLinh";
 	else return "QuaiThuong";
 }
 int XuLi::getak() {

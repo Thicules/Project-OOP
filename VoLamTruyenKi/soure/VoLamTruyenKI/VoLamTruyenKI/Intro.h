@@ -19,4 +19,5 @@ public:
 	void Victory();
 	void Defeat();
 	void Write(int ak, ofstream& fo, int n, string NV);
+	void History();
 };
