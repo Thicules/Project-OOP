@@ -1,0 +1,21 @@
+﻿  XuLi.cpp
+C:\Users\Cao Thi\Desktop\Đồ án\Source code\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(76,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Cao Thi\Desktop\Đồ án\Source code\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(77,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Cao Thi\Desktop\Đồ án\Source code\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(79,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Cao Thi\Desktop\Đồ án\Source code\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(82,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Cao Thi\Desktop\Đồ án\Source code\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(83,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Cao Thi\Desktop\Đồ án\Source code\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(87,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Cao Thi\Desktop\Đồ án\Source code\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(88,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Cao Thi\Desktop\Đồ án\Source code\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(90,51): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Cao Thi\Desktop\Đồ án\Source code\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(90,27): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Cao Thi\Desktop\Đồ án\Source code\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(92,49): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Cao Thi\Desktop\Đồ án\Source code\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(92,22): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Cao Thi\Desktop\Đồ án\Source code\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(95,51): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Cao Thi\Desktop\Đồ án\Source code\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(95,27): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Cao Thi\Desktop\Đồ án\Source code\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(98,49): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Cao Thi\Desktop\Đồ án\Source code\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(98,22): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Cao Thi\Desktop\Đồ án\Source code\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(100,49): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Cao Thi\Desktop\Đồ án\Source code\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(100,22): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Cao Thi\Desktop\Đồ án\Source code\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(102,49): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Cao Thi\Desktop\Đồ án\Source code\VoLamTruyenKI\VoLamTruyenKi\XuLi.cpp(102,22): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  VoLamTruyenKi.vcxproj -> C:\Users\Cao Thi\Desktop\Đồ án\Source code\VoLamTruyenKI\Debug\VoLamTruyenKi.exe

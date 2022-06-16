@@ -1,0 +1,10 @@
+Lich su dau
+Ten nguoi choi: Thi
+Tran 1:
+Nhan vat : Duong Qua
+Chien thang
+Tran 2:
+Nhan vat : Kieu Phong
+Chien thang
+Tran 3:
+Nhan vat : Duong Qua

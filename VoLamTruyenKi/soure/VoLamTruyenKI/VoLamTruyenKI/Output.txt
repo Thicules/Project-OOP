@@ -1,9 +1,0 @@
-Lich su dau
-Ten nguoi choi: 8
-Tran 1:
-Nhan vat : Duong Qua
-Quai vat thang
-Ket thuc o ai 5
-Tran 2:
-Nhan vat : Hu Tuc
-Chien thang
